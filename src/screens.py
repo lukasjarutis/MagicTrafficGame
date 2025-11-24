@@ -29,12 +29,12 @@ class MenuScreen(Screen):
 
         self.cross_button = Button(
             rect=(mx - btn_w//2, my - 60, btn_w, btn_h),
-            text="Cross intersection (+)",
+            text="Cross intersection",
             font=game.font
         )
         self.t_button = Button(
             rect=(mx - btn_w//2, my + 30, btn_w, btn_h),
-            text="T intersection (no North)",
+            text="T intersection",
             font=game.font
         )
         self._built = True
