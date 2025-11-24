@@ -163,7 +163,7 @@ class Vehicle:
         if not red_like:
             return False
 
-        stop_margin = 6
+        stop_margin = 10
 
         if self.direction == "N":
             stop_y = cy - off
