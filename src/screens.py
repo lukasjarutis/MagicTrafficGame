@@ -108,7 +108,7 @@ class OverScreen(Screen):
         overlay.fill((0, 0, 0, 170))
         screen.blit(overlay, (0, 0))
 
-        panel_w, panel_h = 520, 260
+        panel_w, panel_h = 520, 300
         panel_rect = pygame.Rect(
             (game.WIDTH - panel_w) // 2,
             (game.HEIGHT - panel_h) // 2,

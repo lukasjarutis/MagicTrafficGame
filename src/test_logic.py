@@ -91,7 +91,6 @@ class TestVehiclesLogic(unittest.TestCase):
     def test_car_stops_on_red_before_stopline(self):
         game = DummyGame("cross")
 
-        # вручную ставим фазу: вертикаль красная
         for l in game.controller.v_lights:
             l.set_state(RedState())
         for l in game.controller.h_lights:
