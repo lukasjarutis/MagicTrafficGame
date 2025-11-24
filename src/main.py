@@ -8,7 +8,7 @@ from controller import IntersectionController
 from commands import NextPhaseCommand
 from vehicles import VehicleFactory
 from ui_button import Button
-from screens import MenuScreen, PlayScreen, OverScreen
+from screens import MenuScreen, OverScreen
 
 
 class Game:

@@ -82,7 +82,6 @@ class Vehicle:
         arms = road.arms()
         cx, cy = road.center_x, road.center_y
         lane = road.lane_width / 2
-        inter_half = road.road_width // 2
 
         if self.turn_triggered:
             return
@@ -229,6 +228,7 @@ class Ambulance(Vehicle):
     def __init__(self, x, y, direction):
         super().__init__(x, y, direction)
         self.priority = True  # важная
+        self.priority = True
 
 
 class PoliceCar(Vehicle):
