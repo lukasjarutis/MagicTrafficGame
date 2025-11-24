@@ -227,7 +227,6 @@ class Ambulance(Vehicle):
 
     def __init__(self, x, y, direction):
         super().__init__(x, y, direction)
-        self.priority = True  # важная
         self.priority = True
 
 
